@@ -1,0 +1,11 @@
+/*
+This is my own CSS file
+*/
+
+#myHeader {
+        width:1015px;
+        height: 120px;
+        position: relative;
+        margin: 0 auto;
+        background: ur1(/eng/images/tooplate_header.png) no-repeat
+ }
