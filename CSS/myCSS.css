@@ -9,3 +9,11 @@ This is my own CSS file
         margin: 0 auto;
         background: ur1(/images/myHeader.png) no-repeat
  }
+a.sitetitle {
+    display: block;
+    float: left;
+    margin: 45px 20px 0;
+    width: 240px;
+    height: 60px;
+    background: url(images/ohsoft_logo_shadow.png);
+}
