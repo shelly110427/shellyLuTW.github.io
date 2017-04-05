@@ -15,5 +15,13 @@ a.sitetitle {
     margin: 45px 20px 0;
     width: 240px;
     height: 60px;
-    background: url(images/ohsoft_logo_shadow.png);
+    background: url(/images/ohsoft_logo_shadow.png)no-repeat;
+}
+#myNav {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 750px;
+    height: 60px;
+    background: rgba(14, 160, 227,1);
 }
