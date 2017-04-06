@@ -34,5 +34,8 @@ a.sitetitle {
 .myMenu li {
     position: relative;
     float: left;
-    display: block;
+    display: inline;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 20px;
 }
