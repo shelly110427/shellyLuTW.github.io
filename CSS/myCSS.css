@@ -25,3 +25,14 @@ a.sitetitle {
     height: 60px;
     background: rgba(14, 160, 227,1);
 }
+.myMenu ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.myMenu li {
+    position: relative;
+    float: left;
+    display: block;
+}
