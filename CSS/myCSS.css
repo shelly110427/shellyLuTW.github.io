@@ -2,6 +2,14 @@
 This is my own CSS file
 */
 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ededed;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+
 #myHeader {
         width:1015px;
         height: 120px;
