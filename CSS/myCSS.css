@@ -10,7 +10,7 @@ line-height: 20px;
 }
 
 header{
-background: url(/image/myHeader2.png) repeat-x;
+background: url(/images/myHeader2.png) repeat-x;
 }
 
 #myHeader {
@@ -18,7 +18,7 @@ background: url(/image/myHeader2.png) repeat-x;
 	height: 120px;
 	position: relative;
 	margin: 0 auto;
-	background: url(/image/myHeader1.png) no-repeat
+	background: url(/images/myHeader1.png) no-repeat
 }
 
 a.sitetitle {
@@ -27,7 +27,7 @@ a.sitetitle {
     margin: 45px 20px 0;
     width: 240px;
     height: 60px;
-    background: url(/image/ohsoft_logo_shadow2.png)no-repeat;
+    background: url(/images/ohsoft_logo_shadow2.png)no-repeat;
 }
 
 #myNav {
