@@ -1,49 +1,96 @@
 /*
-This is my own CSS file
+This is my css
 */
+body{
+margin: 0;
+padding: 0;
+background-color: #ededed;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 20px;
+}
 
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #ededed;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 20px;
+header{
+background: url(/image/myHeader2.png) repeat-x;
 }
 
 #myHeader {
-        width:1015px;
-        height: 120px;
-        position: relative;
-        margin: 0 auto;
-        background: url(/images/myHeader2.png)no-repeat;
- }
+	width: 1015px;
+	height: 120px;
+	position: relative;
+	margin: 0 auto;
+	background: url(/image/myHeader1.png) no-repeat
+}
+
 a.sitetitle {
     display: block;
     float: left;
     margin: 45px 20px 0;
     width: 240px;
     height: 60px;
-    background: url(/images/ohsoft_logo_shadow2.png)no-repeat;
+    background: url(/image/ohsoft_logo_shadow2.png)no-repeat;
 }
+
 #myNav {
     position: absolute;
     bottom: 0;
     right: 0;
     width: 750px;
     height: 60px;
-    background: rgba(14, 160, 227,1);
+    //background: green;
 }
+
 .myMenu ul {
     float: right;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+
 .myMenu li {
     position: relative;
     float: left;
-    display: inline;
+    display: block;
     height: 60px;
     line-height: 60px;
     margin-right: 20px;
+}
+.myMenu  img    {
+    vertical-align: middle;
+}
+
+.myMenu ul li a   {
+    color: blue;
+    padding: 0 15px;
+    margin-right: 1px;
+}
+
+#mainContent {
+        clear: both;
+	width: 1015px;
+	margin: 0 auto;
+	padding: 5px 10px 0;
+}
+
+.left{
+        float:left;
+}
+
+.right{
+        float:right;
+}
+
+#myContent {
+	width: 700px;
+}
+
+#mySidebar {
+	width: 300px;
+}
+
+.h30 {
+        height: 30px;   
+}
+
+.clear {
+        clear:both;   
 }
