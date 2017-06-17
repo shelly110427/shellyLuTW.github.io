@@ -34,12 +34,12 @@ footer {
 }
 
 @keyframes myAnimateDiv{
-    0% {transform: rotate(15deg);left:-100px;}
+    0% {transform: rotate(180deg);left:-100px;}
    10% {transform: rotate(20deg);left:0px;}
    15% {transform: rotate(30deg);}
    30% {transform: rotate(0deg);left:400px;}
    40% {transform: scale(5,5);left:400px;}
-   46% {transform: scale(10,10);left:400px;}
+   46% {transform: scale(8,8);left:400px;}
    50% {transform: rotate(180deg);left:400px;}
    60% {transform: rotate(350deg);left:800px;background: #319ada;}
    65% {transform: rotate(360deg);left:800px;}
